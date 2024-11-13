@@ -1,0 +1,115 @@
+@import "assets/scss/colors.scss";
+@import "assets/scss/breakpoints.scss";
+
+.bg-contact {
+  width: 100%;
+  background-color: $primary;
+  background-image: url("../../assets/images/backgrounds/contact.png");
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 0.6rem solid $secondry;
+  @include breakpoint(lg) {
+    height: 45vh;
+  }
+  @include breakpoint(md) {
+    height: 37.5vh;
+  }
+  @include breakpoint(sm) {
+    height: 30vh;
+  }
+}
+
+.contact-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+// =============================================================
+$borderRadius: 30px;
+.contact-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @include breakpoint(lg) {
+    transform: translateY(-30%);
+  }
+  @include breakpoint(md) {
+    transform: translateY(-25%);
+  }
+  @include breakpoint(sm) {
+    transform: translateY(-15%);
+  }
+  .contact-card {
+    border-radius: $borderRadius;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    max-width: 80%;
+  }
+  .card-header {
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-top-right-radius: $borderRadius;
+    border-top-left-radius: $borderRadius;
+  }
+  .card-body {
+    max-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 5rem;
+
+    @include breakpoint(sm) {
+      padding: 3rem 2.5rem;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: $primary;
+    }
+    a {
+      color: $primary;
+      text-decoration: none;
+    }
+    h6 {
+      font-weight: bold;
+      margin: 0;
+
+      @include breakpoint(sm) {
+        font-size: smaller;
+      }
+    }
+    div img {
+      @include breakpoint(lg) {
+        max-width: 35px;
+      }
+      @include breakpoint(md) {
+        max-width: 28px;
+      }
+      @include breakpoint(sm) {
+        max-width: 22px;
+      }
+    }
+  }
+
+  .emails {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.icons-contct{
+  color: $secondry;
+  
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: JannaLT-Bold;
+  src: url("./assets/fonts/JannaLT-Bold.ttf"), local("sans-serif");
+}
+
+@font-face {
+  font-family: JannaLT-Regular;
+  src: url("./assets/fonts/JannaLT-Regular.ttf"), local("sans-serif");
+}
+
+body,
+h5,
+h6,
+p {
+  font-family: JannaLT-Regular;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: JannaLT-Bold;
+}

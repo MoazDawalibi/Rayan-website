@@ -1,0 +1,43 @@
+@import "../../assets/scss/breakpoints.scss";
+@import "../../assets/scss/colors.scss";
+
+.footer-socials {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  padding: 1.5rem 0.5rem;
+
+  @include breakpoint(sm) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  & > img {
+    max-width: 10rem;
+  }
+
+  .footer-navs {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $primary;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .social-media {
+    display: flex;
+    gap: 1rem;
+
+    a,
+    img {
+      max-width: 25px;
+      max-height: 25px;
+    }
+  }
+}

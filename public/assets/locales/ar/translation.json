@@ -1,0 +1,44 @@
+{
+  "brand": "ريان تكسي",
+  "home": "الرئيسية",
+  "terms_&_policy": "شروط الاستخدام",
+  "contact_us": "تواصل معنا",
+
+  "captain": "السائق",
+  "customer": "الزبون",
+
+  "best_in_country": "الأفضل في البلاد",
+  "trusted_taxi_services": "خدمات تكسي موثوقة",
+  "in_iraq": "في العراق",
+  "read_more": "اقرأ المزيد",
+
+  "our_policy": "سياستنا",
+  "our_info": "معلوماتنا",
+  "location": "بغداد، العراق",
+  "hours_of_operation": "ساعات العمل 24/7",
+
+  "get_the_app": "احصل على التطبيق",
+  "get_the_app_description": "يمكنك الآن تحميل التطبيق على الأندرويد وأجهزة الأيفون. لن تكون تائه مع ريان تكسي، احجز رحلتك من أي مكان.",
+
+  "options": {
+    "book": "احجز رحلة تناسبك",
+    "book_text": "اختر من بين مجموعة واسعة من الخيارات واحصل على رحلتك في غضون دقائق أو حدد موعدًا لوقت لاحق.",
+    "pay": "اختر طريقة الدفع التي تناسبك",
+    "pay_text": "ادفع نقداً أو عبر بطاقة ائتمانك أو استخدم نقاط ريان.",
+    "track": "تتبع رحلتك",
+    "track_text": "من اللحظة التي يتم فيها تعيين الكابتن الخاص بك حتى وصولك إلى وجهتك ، تتبع رحلتك في الوقت الفعلي أو شارك تفاصيلك مع أحبائك."
+  },
+
+  "how_rayan_taxi_works": "كيف يعمل تطبيق ريان تكسي؟",
+  "steps": {
+    "set_location": "حدد موقع بدء الرحلة",
+    "set_location_description": "ابحث عن الموقع وحدده على الخريطة",
+    "choose_driver": "اختر سائقاً",
+    "choose_driver_description": "اختر كيف تريد الوصول إلى وجهتك",
+    "dropoff_location": "حدد موقع النهاية أو الوجهة",
+    "dropoff_location_description": "أخبرنا أين تريد الذهاب",
+    "payment": "اختر طريقة الدفع التي تناسبك"
+  },
+
+  "home_description": "Lorem ipsum dolor sit amet, consectetuer adip- iscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim"
+}

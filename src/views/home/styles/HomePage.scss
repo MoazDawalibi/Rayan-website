@@ -1,0 +1,57 @@
+@import "../../../assets/scss/breakpoints.scss";
+@import "../../../assets/scss/colors.scss";
+
+$carTop: (
+  lg: 45vh,
+  md: 35vh,
+  sm: 30vh,
+);
+$carWidth: (
+  lg: 40%,
+  md: 60%,
+  sm: 65%,
+);
+// =========================================
+
+.bg-1 {
+  width: 100%;
+  background-color: $secondry;
+  background-image: url("../../../assets/images/backgrounds/cars.png");
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 0.6rem solid $secondry;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @include breakpoint(lg) {
+    height: map-get($carTop, lg);
+  }
+  @include breakpoint(md) {
+    height: map-get($carTop, md);
+  }
+  @include breakpoint(sm) {
+    height: map-get($carTop, sm);
+  }
+}
+
+.car-image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  @include breakpoint(lg) {
+    top: map-get($carTop, lg);
+    width: map-get($carWidth, lg);
+  }
+  @include breakpoint(md) {
+    top: map-get($carTop, md);
+    width: map-get($carWidth, md);
+  }
+  @include breakpoint(sm) {
+    top: map-get($carTop, sm);
+    width: map-get($carWidth, sm);
+  }
+}
+
+.image-logo{
+  width: 15%;
+  min-width: 100px;
+ 
+}

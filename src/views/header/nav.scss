@@ -1,0 +1,75 @@
+@import "../../assets/scss/breakpoints.scss";
+@import "../../assets/scss/colors.scss";
+
+// =========================================
+
+.home-header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  @include breakpoint(sm) {
+    padding: 1rem 1rem;
+  }
+}
+.home-header {
+  .home-logo img {
+    @include breakpoint(sm) {
+      max-width: 22vw;
+    }
+    @include breakpoint(md) {
+      max-width: 18vw;
+    }
+    @include breakpoint(lg) {
+      max-width: 10vw;
+    }
+  }
+
+  .home-nav {
+    display: flex;
+    gap: 0.7rem;
+    @include breakpoint(lg) {
+      gap: 2.5rem;
+    }
+  }
+  .home-nav * {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    align-self: center;
+    white-space: nowrap;
+    @include breakpoint(sm) {
+      font-size: 2.7vw;
+    }
+    @include breakpoint(md) {
+      font-size: 2vw;
+    }
+    @include breakpoint(lg) {
+      font-size: 1.3vw;
+    }
+  }
+  .active-nav {
+    background-color: $secondry;
+    border-radius: 150px;
+    padding: 0.25rem 0.75rem;
+  }
+}
+
+.dropdown-toggle {
+  outline: none;
+  background: $secondry;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background-color: $secondry
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:focus,
+.dropdown-toggle::selection {
+  background: $primary;
+}

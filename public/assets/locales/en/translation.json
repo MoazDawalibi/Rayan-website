@@ -1,0 +1,44 @@
+{
+  "brand": "Rayan Taxi",
+  "home": "Home",
+  "terms_&_policy": "Terms & Policy",
+  "contact_us": "Contact Us",
+
+  "captain": "Captain",
+  "customer": "Customer",
+
+  "best_in_country": "Best In Country",
+  "trusted_taxi_services": "Trusted Taxi Services",
+  "in_iraq": "In Iraq",
+  "read_more": "Read More",
+
+  "our_policy": "Our Policy",
+  "our_info": "Our Info",
+  "location": "BAGHDAD, IRAQ",
+  "hours_of_operation": "HOURS OF OPERATION: 24/7",
+
+  "get_the_app": "GET THE APP",
+  "get_the_app_description": "You can now download our app on Android and iOS. Never be stranded with Rayan Taxi, book your cab from wherever you are, for as many of you as there are.",
+
+  "options": {
+    "book": "BOOK A RIDE THAT SUITS YOU",
+    "book_text": "Select from a wide range of options and get a ride in minutes or schedule one for later.",
+    "pay": "PAY THE WAY YOU LIKE",
+    "pay_text": "Cash, card, or Rayan credits, we’ve got you covered.",
+    "track": "TRACK YOUR RIDE",
+    "track_text": "From the moment your Captain is assigned till you get to your destination, track your ride in real time or share your details with your loved ones."
+  },
+
+  "how_rayan_taxi_works": "HOW RAYAN TAXI WORKS ?",
+  "steps": {
+    "set_location": "Set your pickup location",
+    "set_location_description": "Search for a location or drop a pin on the map.",
+    "choose_driver": "Choose a driver",
+    "choose_driver_description": "Choose how you want to get there.",
+    "dropoff_location": "Select your drop-off location",
+    "dropoff_location_description": "Tell us where you want to go.",
+    "payment": "Choose your payment"
+  },
+
+  "home_description": "Lorem ipsum dolor sit amet, consectetuer adip- iscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim"
+}

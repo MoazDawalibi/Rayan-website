@@ -1,0 +1,29 @@
+{
+  "emails": ["INFO@RAYANTAXI.COM", "INFO2@RAYANTAXI.COM", "INFO3@RAYANTAXI.COM"],
+
+  "social_links": [
+    {
+      "icon": "/assets/images/icons/facebook.png",
+      "url": "https://facebook.com/"
+    },
+    {
+      "icon": "/assets/images/icons/twitter.png",
+      "url": "https://twitter.com"
+    },
+    {
+      "icon": "/assets/images/icons/linked-in.png",
+      "url": "https://linkedin.com"
+    }
+  ],
+
+  "download_app": {
+    "captain": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.sdnone.driver_rayan",
+      "app_store": "https://www.apple.com/store"
+    },
+    "customer": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.sdnone.rider_rayan",
+      "app_store": "https://www.apple.com/store"
+    }
+  }
+}

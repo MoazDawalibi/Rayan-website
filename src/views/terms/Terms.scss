@@ -1,0 +1,110 @@
+@import "assets/scss/colors.scss";
+@import "assets/scss/breakpoints.scss";
+
+.bg-terms {
+  width: 100%;
+  background-color: $primary;
+  background-image: url("../../assets/images/backgrounds/terms.png");
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 0.6rem solid $secondry;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @include breakpoint(lg) {
+    height: 45vh;
+  }
+  @include breakpoint(md) {
+    height: 37.5vh;
+  }
+  @include breakpoint(sm) {
+    height: 30vh;
+  }
+}
+
+.terms-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+// =============================================================
+$borderRadius: 30px;
+.terms-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @include breakpoint(lg) {
+    transform: translateY(-30%);
+  }
+  @include breakpoint(md) {
+    transform: translateY(-25%);
+  }
+  @include breakpoint(sm) {
+    transform: translateY(-15%);
+  }
+  .terms-card {
+    border-radius: $borderRadius;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 55%;
+    @include breakpoint(sm) {
+      width: 80%;
+    }
+  }
+  .card-header {
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-top-right-radius: $borderRadius;
+    border-top-left-radius: $borderRadius;
+  }
+  .card-body {
+    height: 25rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    @include breakpoint(lg) {
+      height: 20rem;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0.6rem;
+      border-radius: 15px;
+    }
+    &::-webkit-scrollbar-track {
+      margin-bottom: 1.3rem;
+      background: lightgray;
+      border-bottom-left-radius: 10px;
+      opacity: 0.5;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-bottom-left-radius: 10px;
+      background: #8228f0;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #9348ee;
+    }
+  }
+  #policy-container {
+    padding: 1.2rem;
+  }
+}
+
+html[dir="rtl"] {
+  .terms-card-container {
+    .card-body {
+      &::-webkit-scrollbar-track {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+}
